@@ -4,6 +4,7 @@ import Greet from './Components/FuncComps/Func1';
 import Greet2 from './Components/FuncComps/Func2';
 import Jsx1 from './Components/ClassComps/jsx';
 import Message from './Components/Message';
+import SetState from './Components/ClassComps/SetState';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Class1 name="Siriyala"/>
       <Jsx1 />
       <Message />
+      <SetState />
     </div>
   );
 }
